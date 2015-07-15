@@ -1,2 +1,4 @@
 # geospatial_vis
-Geospatial Visualisation for AfriNREN Project
+Geospatial Visualisation for AfriNREN Project 2015
+
+
