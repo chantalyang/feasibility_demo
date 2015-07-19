@@ -13,7 +13,8 @@ var map = AmCharts.makeChart( "map_div", {
   		latitude: 0.329179, 
   		longitude: 32.570989, 
   		svgPath: probe_icon, 
-  		color:"#3dd200"
+  		color: "#3dd200",
+  		scale: 1.0
 
   	}                    
 
@@ -34,7 +35,13 @@ var map = AmCharts.makeChart( "map_div", {
     unlistedAreasColor: "#DDDDDD"
   },
 
-  "legend": {
+  imagesSettings: {
+    
+    rollOverColor: "#CC0000",
+    selectedColor: "#000000"
+  },
+
+  /*"legend": {
             "backgroundColor": "#fff",
             "backgroundAlpha": 0.7,
             "align": "center",
@@ -45,7 +52,7 @@ var map = AmCharts.makeChart( "map_div", {
             title: "Two",
             color: "#FFCC33"
         }]
-}//End Legend
+} */ //End Legend
 
 } );
 
