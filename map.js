@@ -12,7 +12,7 @@ var map = AmCharts.makeChart( "map_div", {
   },
 
   areasSettings: {
-    unlistedAreasColor: "#FFCC00"
+    unlistedAreasColor: "#cecece"
   }
 
 } );
