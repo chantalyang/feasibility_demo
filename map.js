@@ -26,10 +26,27 @@ var map = AmCharts.makeChart( "map_div", {
 
 
 
-  },
+  },// End dataProvider
+
+
 
   areasSettings: {
     unlistedAreasColor: "#DDDDDD"
-  }
+  },
+
+  "legend": {
+            "backgroundColor": "#fff",
+            "backgroundAlpha": 0.7,
+            "align": "center",
+        "data": [{
+            title: "One",
+            color: "#3366CC"
+        }, {
+            title: "Two",
+            color: "#FFCC33"
+        }]
+}//End Legend
 
 } );
+
+//chart.addLegend(legend, "legenddiv");
