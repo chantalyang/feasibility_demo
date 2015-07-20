@@ -8,9 +8,21 @@ var map = AmCharts.makeChart( "map_div", {
 
   dataProvider: {
   	map: "worldLow",
-  	linkToObject: "Probe_15357"
+  	linkToObject: "Probe_15357",
   	images: [ 
-  	{
+  	
+    {
+      id:"Source_41.223.156.170",
+      title:"41.223.156.170",
+      latitude: -8.419200, 
+      longitude: 20.744699,
+      type: "circle",
+      scale: 1.0,
+      zoomLevel: 5.00,
+
+    },
+
+    {
   		id:"Probe_15357",
   		title: "Probe_15357",
   		latitude: 0.329179, 
