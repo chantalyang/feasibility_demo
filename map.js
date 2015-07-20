@@ -17,15 +17,30 @@ var map = AmCharts.makeChart( "map_div", {
   		color: "#3dd200",
   		scale: 1.0
 
-  	}                    
+
+  	},                    
+
+  	{
+ 		id:"Probe_14900",
+  		title: "Probe_14900",
+  		latitude: 0.339179, 
+  		longitude: 33.570989, 
+  		svgPath: probe_icon, 
+  		color: "#3dd200",
+  		scale: 1.0
+
+
+
+
+ 	}
 
 
 
 
 
-  	],
-
-
+  	], //End image
+ 	
+ 	
 
 
   },// End dataProvider
