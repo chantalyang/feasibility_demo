@@ -14,7 +14,7 @@ var map = AmCharts.makeChart( "map_div", {
   	
     {
       id:"Source_41.223.156.170",
-      title:"41.223.156.170",
+      title:"IP_41.223.156.170",
       latitude: -8.419200, 
       longitude: 20.744699,
       type: "bubble",
@@ -31,7 +31,7 @@ var map = AmCharts.makeChart( "map_div", {
           longitudes: [ 20.744699, 33.570989 ]
         } ],
 
-    },
+    }, 
 
     {
   		id:"Probe_15357",
@@ -55,7 +55,19 @@ var map = AmCharts.makeChart( "map_div", {
   		color: "#3dd200",
   		scale: 1.0,
   		zoomLevel: 5.00,
- 	}//End probe
+ 	},//End probe_14900
+
+
+    {
+    id:"Probe_13218",
+      title: "Probe_13218",
+      latitude: -1.280702, 
+      longitude: 36.816352, 
+      svgPath: probe_icon, 
+      color: "#3dd200",
+      scale: 1.0,
+      zoomLevel: 5.00,
+  }//End probe
 
  
 
