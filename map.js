@@ -10,6 +10,7 @@ var map = AmCharts.makeChart( "map_div", {
   	images: [ 
   	{
   		id:"Probe_15357",
+  		title: "Probe_15357",
   		latitude: 0.329179, 
   		longitude: 32.570989, 
   		svgPath: probe_icon, 
