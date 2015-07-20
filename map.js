@@ -8,7 +8,7 @@ var map = AmCharts.makeChart( "map_div", {
 
   dataProvider: {
   	map: "worldLow",
-  	//linkToObject:
+  	linkToObject: "Probe_15357"
   	images: [ 
   	{
   		id:"Probe_15357",
