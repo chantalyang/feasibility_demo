@@ -8,7 +8,7 @@ var map = AmCharts.makeChart( "map_div", {
 
   dataProvider: {
   	map: "worldLow",
-  	linkToObject: "Probe_15357",
+  	linkToObject: "Source_41.223.156.170", //Link to determines zoomLevel on map initiate
   	images: [ 
   	
     {
@@ -19,6 +19,14 @@ var map = AmCharts.makeChart( "map_div", {
       type: "circle",
       scale: 1.0,
       zoomLevel: 5.00,
+
+       lines: [ {
+          latitudes: [ -8.419200, 0.329179 ],
+          longitudes: [ 20.744699, 32.570989 ]
+        }, {
+          latitudes: [ -8.419200, 0.339179],
+          longitudes: [ 20.744699, 33.570989 ]
+        } ],
 
     },
 
@@ -44,10 +52,9 @@ var map = AmCharts.makeChart( "map_div", {
   		color: "#3dd200",
   		scale: 1.0,
   		zoomLevel: 5.00,
+ 	}//End probe
 
-
-
- 	}
+ 
 
 
 
