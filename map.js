@@ -8,7 +8,8 @@ var map = AmCharts.makeChart( "map_div", {
 
   dataProvider: {
   	map: "worldLow",
-  	linkToObject: "Source_41.223.156.170", //Link to determines zoomLevel on map initiate
+  	//linkToObject: "Source_41.223.156.170", 
+    //Link to determines zoomLevel on map initiate
   	images: [ 
   	
     {
@@ -16,11 +17,13 @@ var map = AmCharts.makeChart( "map_div", {
       title:"41.223.156.170",
       latitude: -8.419200, 
       longitude: 20.744699,
-      type: "circle",
+      type: "bubble",
       scale: 1.0,
       zoomLevel: 5.00,
 
        lines: [ {
+          //latitude [sourceLat, destLat ]
+          //longitude [sourceLong, destLong ]
           latitudes: [ -8.419200, 0.329179 ],
           longitudes: [ 20.744699, 32.570989 ]
         }, {
@@ -68,7 +71,7 @@ var map = AmCharts.makeChart( "map_div", {
   },// End dataProvider
 
 
-
+  //Settings for Map Objects
   areasSettings: {
     unlistedAreasColor: "#DDDDDD"
   },
@@ -76,7 +79,13 @@ var map = AmCharts.makeChart( "map_div", {
   imagesSettings: {
     
     rollOverColor: "#CC0000",
-    selectedColor: "#000000"
+    selectedColor: "#2DBDFC"
+  },
+
+  linesSettings: {
+    color: "#000000",
+    thickness: 1.5,
+    rollOverColor: "#CC0000",
   },
 
   /*"legend": {
