@@ -15,7 +15,8 @@ var map = AmCharts.makeChart( "map_div", {
   		longitude: 32.570989, 
   		svgPath: probe_icon, 
   		color: "#3dd200",
-  		scale: 1.0
+  		scale: 1.0,
+  		zoomLevel: 5.00,
 
 
   	},                    
@@ -27,8 +28,8 @@ var map = AmCharts.makeChart( "map_div", {
   		longitude: 33.570989, 
   		svgPath: probe_icon, 
   		color: "#3dd200",
-  		scale: 1.0
-
+  		scale: 1.0,
+  		zoomLevel: 5.00,
 
 
 
