@@ -23,14 +23,14 @@ var map = AmCharts.makeChart( "map_div", {
       zoomLevel: 5.00,
 
        lines: [ {
-          //latitude [sourceLat, destLat ]
-          //longitude [sourceLong, destLong ]
-          latitudes: [ -8.419200, 0.329179 ],
-          longitudes: [ 20.744699, 32.570989 ]
-        }, {
+          latitudes: [ -8.419200, 0.329179 ], //latitude [sourceLat, destLat ]
+          longitudes: [ 20.744699, 32.570989 ] //longitude [sourceLong, destLong ]
+        }, 
+
+        {
           latitudes: [ -8.419200, 0.339179],
           longitudes: [ 20.744699, 33.570989 ]
-        } ],
+        } ,  ],
 
     }, 
 
@@ -51,7 +51,7 @@ var map = AmCharts.makeChart( "map_div", {
         }, {
           latitudes: [ -12.500000, 0.339179],
           longitudes: [ 18.500000, 33.570989 ]
-        } ],
+        } ], 
 
     },
 
@@ -73,7 +73,7 @@ var map = AmCharts.makeChart( "map_div", {
           latitudes: [ -24.646400, 0.339179],
           longitudes: [ 25.911900, 33.570989 ]
         } ],
-
+ 
     },
 
     {
@@ -124,6 +124,7 @@ var map = AmCharts.makeChart( "map_div", {
     {
   		id:"Probe_15357",
   		title: "Probe_15357",
+      description: "description",
   		latitude: 0.329179, 
   		longitude: 32.570989, 
   		type: "circle", 
@@ -160,6 +161,7 @@ var map = AmCharts.makeChart( "map_div", {
   {
     id:"Probe_13114",
       title: "Probe_13114",
+      label: "Test",
       latitude: -1.235795, 
       longitude: 37.868172, 
       type: "circle", 
@@ -236,7 +238,8 @@ var map = AmCharts.makeChart( "map_div", {
 
   //Settings for Map Objects
   areasSettings: {
-    unlistedAreasColor: "#DDDDDD"
+    unlistedAreasColor: "#DDDDDD",
+    rollOverOutlineColor: "#DDDDDD"
   },
 
   imagesSettings: {
