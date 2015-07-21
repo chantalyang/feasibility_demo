@@ -52,7 +52,7 @@ var map = AmCharts.makeChart( "map_div", {
   		latitude: 0.339179, 
   		longitude: 33.570989, 
   		svgPath: probe_icon, 
-  		color: "#3dd200",
+  		color: "#3dd304",
   		scale: 1.0,
   		zoomLevel: 5.00,
  	},//End probe_14900
@@ -64,13 +64,77 @@ var map = AmCharts.makeChart( "map_div", {
       latitude: -1.280702, 
       longitude: 36.816352, 
       svgPath: probe_icon, 
-      color: "#3dd200",
+      color: "#3dd410",
+      scale: 1.0,
+      zoomLevel: 5.00,
+  },//End probe
+  
+  {
+    id:"Probe_13114",
+      title: "Probe_13114",
+      latitude: -1.235795, 
+      longitude: 37.868172, 
+      svgPath: probe_icon, 
+      color: "#3dd500",
+      scale: 1.0,
+      zoomLevel: 5.00,
+  },//End probe
+
+  {
+   id:"Probe_19592",
+      title: "Probe_19592",
+      latitude: -18.942708, 
+      longitude: 47.528323, 
+      svgPath: probe_icon, 
+      color: "#3dd600",
+      scale: 1.0,
+      zoomLevel: 5.00,
+  },//End probe
+
+  {
+   id:"Probe_14712",
+      title: "Probe_14712",
+      latitude: -17.942708, 
+      longitude: 48.528323, 
+      svgPath: probe_icon, 
+      color: "#3dd700",
+      scale: 1.0,
+      zoomLevel: 5.00,
+  },//End probe
+
+  {
+   id:"Probe_4061",
+      title: "Probe_4061",
+      latitude: 15.609327, 
+      longitude: 32.541700, 
+      svgPath: probe_icon, 
+      color: "#3dd800",
+      scale: 1.0,
+      zoomLevel: 5.00,
+  },//End probe
+
+  {
+   id:"Probe_4518",
+      title: "Probe_4518",
+      latitude: -33.295427, 
+      longitude: 26.521345
+, 
+      svgPath: probe_icon, 
+      color: "#3dd900",
+      scale: 1.0,
+      zoomLevel: 5.00,
+  },//End probe
+
+  {
+   id:"Probe_18169",
+      title: "Probe_18169",
+      latitude: -33.313596 , 
+      longitude: 27.516308, 
+      svgPath: probe_icon, 
+      color: "#3dd110",
       scale: 1.0,
       zoomLevel: 5.00,
   }//End probe
-
- 
-
 
 
 
