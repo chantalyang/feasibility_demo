@@ -9,13 +9,14 @@ var map = AmCharts.makeChart( "map_div", {
   dataProvider: {
   	map: "worldLow",
   	//linkToObject: "Source_41.223.156.170", 
-    //Link to determines zoomLevel on map initiate
+    //^ Determines default zoom on mapInitiatte
   	images: [ 
-  	
+
+  	//Plot ip
     {
       id:"Source_41.223.156.170",
       title:"IP_41.223.156.170",
-      latitude: -8.419200, 
+      latitude: -8.4192, //Angola
       longitude: 20.744699,
       type: "bubble",
       scale: 1.0,
@@ -33,6 +34,93 @@ var map = AmCharts.makeChart( "map_div", {
 
     }, 
 
+    {
+      id:"Source_41.221.254.22",
+      title:"IP_41.221.254.22",
+      latitude: -12.5, //Angola
+      longitude: 18.5,
+      type: "bubble",
+      scale: 1.0,
+      zoomLevel: 5.00,
+
+       lines: [ {
+          //latitude [sourceLat, destLat ]
+          //longitude [sourceLong, destLong ]
+          latitudes: [ -12.5, 0.329179 ],
+          longitudes: [ 18.500000, 32.570989 ]
+        }, {
+          latitudes: [ -12.500000, 0.339179],
+          longitudes: [ 18.500000, 33.570989 ]
+        } ],
+
+    },
+
+    {
+      id:"Source_168.167.8.1",
+      title:"IP_168.167.8.1",
+      latitude: -24.646400, //Botswana
+      longitude: 25.911900,
+      type: "bubble",
+      scale: 1.0,
+      zoomLevel: 5.00,
+
+       lines: [ {
+          //latitude [sourceLat, destLat ]
+          //longitude [sourceLong, destLong ]
+          latitudes: [ -24.646400, 0.329179 ],
+          longitudes: [ 25.911900, 32.570989 ]
+        }, {
+          latitudes: [ -24.646400, 0.339179],
+          longitudes: [ 25.911900, 33.570989 ]
+        } ],
+
+    },
+
+    {
+      id:"Source_168.167.220.2",
+      title:"IP_168.167.220.2",
+      latitude: -24.946400, //Botswana
+      longitude: 25.111900,
+      type: "bubble",
+      scale: 1.0,
+      zoomLevel: 5.00,
+
+       lines: [ {
+          //latitude [sourceLat, destLat ]
+          //longitude [sourceLong, destLong ]
+          latitudes: [ -24.946400, 0.329179 ],
+          longitudes: [ 25.111900, 32.570989 ]
+        }, {
+          latitudes: [ -24.946400, 0.339179],
+          longitudes: [ 25.111900, 33.570989 ]
+        } ],
+
+    },
+
+     {
+      id:"Source_41.242.128.134",
+      title:"IP_41.242.128.134",
+      latitude: 0, //Congo 
+      longitude: 25.000000,
+      type: "bubble",
+      scale: 1.0,
+      zoomLevel: 5.00,
+
+       lines: [ {
+          //latitude [sourceLat, destLat ]
+          //longitude [sourceLong, destLong ]
+          latitudes: [ 0, 0.329179 ],
+          longitudes: [ 25.000000, 32.570989 ]
+        }, {
+          latitudes: [ 0, 0.339179],
+          longitudes: [ 25.000000, 33.570989 ]
+        } ],
+
+    },
+
+     
+
+//Plot probes
     {
   		id:"Probe_15357",
   		title: "Probe_15357",
