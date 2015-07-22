@@ -16,6 +16,7 @@ var map = AmCharts.makeChart( "map_div", {
 
   	//Plot ip
     {
+      groupId: "dest_id",
       id:"Dest_41.223.156.170",
       title:"IP_41.223.156.170",
       latitude: -8.4192, //Angola
@@ -60,6 +61,7 @@ var map = AmCharts.makeChart( "map_div", {
     }, 
 
     {
+      groupId: "dest_id",
       id:"Dest_41.221.254.22",
       title:"IP_41.221.254.22",
       latitude: -12.5, //Angola
@@ -82,6 +84,7 @@ var map = AmCharts.makeChart( "map_div", {
     },
 
     {
+      groupId: "dest_id",
       id:"Dest_168.167.8.1",
       title:"IP_168.167.8.1",
       latitude: -24.646400, //Botswana
@@ -104,6 +107,7 @@ var map = AmCharts.makeChart( "map_div", {
     },
 
     {
+      groupId: "dest_id",
       id:"Dest_168.167.220.2",
       title:"IP_168.167.220.2",
       latitude: -24.946400, //Botswana
@@ -126,6 +130,7 @@ var map = AmCharts.makeChart( "map_div", {
     },
 
      {
+      groupId: "dest_id",
       id:"Dest_41.242.128.134",
       title:"IP_41.242.128.134",
       color: "#2DBDFC",
@@ -151,6 +156,8 @@ var map = AmCharts.makeChart( "map_div", {
 
 //Plot probes
     {
+
+      groupId: "probes",
   		id:"Probe_15357",
   		title: "Probe_15357",
   		latitude: 0.329179, 
@@ -164,6 +171,7 @@ var map = AmCharts.makeChart( "map_div", {
   	},                    
 
   	{
+      groupId: "probes",
  		id:"Probe_14900",
   		title: "Probe_14900",
   		latitude: 0.339179, 
@@ -176,6 +184,7 @@ var map = AmCharts.makeChart( "map_div", {
 
 
     {
+      groupId: "probes",
     id:"Probe_13218",
       title: "Probe_13218",
       latitude: -1.280702, 
@@ -187,6 +196,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
   
   {
+    groupId: "probes",
     id:"Probe_13114",
       title: "Probe_13114",
       latitude: -1.235795, 
@@ -198,6 +208,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
+    groupId: "probes",
    id:"Probe_19592",
       title: "Probe_19592",
       latitude: -18.942708, 
@@ -209,6 +220,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
+    groupId: "probes",
    id:"Probe_14712",
       title: "Probe_14712",
       latitude: -17.942708, 
@@ -220,8 +232,8 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
-   groupId:"ASN37197 - Sudanese Research and Education Network",
-   id:"Probe_4061",
+groupId: "probes",   
+id:"Probe_4061",
       title: "Probe_4061",
       latitude: 15.609327, 
       longitude: 32.541700,
@@ -233,6 +245,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
+    groupId: "probes",
    id:"Probe_4518",
       title: "Probe_4518",
       latitude: -33.295427, 
@@ -244,6 +257,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
+    groupId: "probes",
    id:"Probe_18169",
       title: "Probe_18169",
       latitude: -33.313596 , 
@@ -358,14 +372,14 @@ var map = AmCharts.makeChart( "map_div", {
     horizontalGap: 10,
         switchable: true,
     data: [{
-      title: "Probes",
+      title: "Probes (Source)",
       color: "#3dd900",
       //customMarker: "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z",
             groupId: "probes"
     }, {
       title: "Destination IP Address",
       color: "#2DBDFC",
-            groupId: "2004"
+            groupId: "dest_id"
     }, {
       title: "Hop IPs",
       color: "#0000ff",
