@@ -24,7 +24,9 @@ var map = AmCharts.makeChart( "map_div", {
 
        lines: [ {
           latitudes: [ -8.419200, 0.329179 ], //latitude [sourceLat, destLat ]
-          longitudes: [ 20.744699, 32.570989 ] //longitude [sourceLong, destLong ]
+          longitudes: [ 20.744699, 32.570989 ], //longitude [sourceLong, destLong ]
+          title: "Number of hops from IP_41.223.156.170 to Probe_15357",
+          description: "10 hops",
         }, 
 
         {
@@ -161,7 +163,6 @@ var map = AmCharts.makeChart( "map_div", {
   {
     id:"Probe_13114",
       title: "Probe_13114",
-      label: "Test",
       latitude: -1.235795, 
       longitude: 37.868172, 
       type: "circle", 
@@ -250,7 +251,7 @@ var map = AmCharts.makeChart( "map_div", {
 
   linesSettings: {
     color: "#000000",
-    thickness: 1.5,
+    thickness: 2.0,
     rollOverColor: "#CC0000",
   },
 
