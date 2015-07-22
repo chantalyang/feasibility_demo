@@ -30,8 +30,7 @@ var map = AmCharts.makeChart( "map_div", {
           latitudes: [ -8.419200, 15.5881 ], //latitude [sourceLat, destLat ]
           longitudes: [ 20.744699, 32.5342 ], //longitude [sourceLong, destLong ]
           title: "link 1",
-          arrow:"end",
-          arrowSize:7,
+          
       
         }, 
 
@@ -258,6 +257,7 @@ var map = AmCharts.makeChart( "map_div", {
   //Angola 41.223.156.170 hops
 
     {
+      groupId:"hop",
       id:"Hop_1",
       title: "Hop_1: ",
       //label:"Hop_1",
@@ -265,46 +265,49 @@ var map = AmCharts.makeChart( "map_div", {
       longitude: 32.5342, 
       type: "circle", 
       color: "#0000ff",
-      scale: 0.5,
+      scale: 0.7,
       zoomLevel: 5.00,
 
 
     },
 
     {
+      groupId:"hop",
       id:"Hop_2, 3, 4, 5",
       title: "Hop_2, 3, 4, 5",
       latitude: 15.0, 
       longitude: 30.0, 
       type: "circle", 
       color: "#0000ff",
-      scale: 0.5,
+      scale: 0.7,
       zoomLevel: 5.00,
 
 
     },  
 
     {
+      groupId:"hop",
       id:"Hop_6",
       title: "Hop_6",
       latitude: 25.0, 
       longitude: 45.0, 
       type: "circle", 
       color: "#0000ff",
-      scale: 0.5,
+      scale: 0.7,
       zoomLevel: 5.00,
 
 
     },
 
     {
+      groupId:"hop",
       id:"Hop_7",
       title: "Hop_7",
       latitude: 42.8333, 
       longitude: 12.8333, 
       type: "circle", 
       color: "#0000ff",
-      scale: 0.5,
+      scale: 0.7,
       zoomLevel: 5.00,
 
 
@@ -335,6 +338,9 @@ var map = AmCharts.makeChart( "map_div", {
     color: "#000000",
     thickness: 2.0,
     rollOverColor: "#CC0000",
+    arrow:"middle",
+    arrowSize:7,
+    arc: -0.5
   },
 
   legend: {
@@ -362,7 +368,7 @@ var map = AmCharts.makeChart( "map_div", {
     }, {
       title: "Hop IPs",
       color: "#0000ff",
-            groupId: "2007"
+            groupId: "hop"
     }]
   }
 
