@@ -20,7 +20,7 @@ var map = AmCharts.makeChart( "map_div", {
       title:"IP_41.223.156.170",
       latitude: -8.4192, //Angola
       longitude: 20.744699,
-      type: "circle", 
+      svgPath: source_icon,
 
       description: "8 hops",
       color: "#2DBDFC",
@@ -32,7 +32,6 @@ var map = AmCharts.makeChart( "map_div", {
           latitudes: [15.5881,  15.0  ], //latitude [sourceLat, destLat ]
           longitudes: [32.5342, 30.0 ], //longitude [sourceLong, destLong ]
           title: "link 1",
-          
       
         }, 
 
@@ -65,7 +64,7 @@ var map = AmCharts.makeChart( "map_div", {
       title:"IP_41.221.254.22",
       latitude: -12.5, //Angola
       longitude: 18.5,
-      type: "circle", 
+      svgPath: source_icon,
       color: "#2DBDFC",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -87,7 +86,7 @@ var map = AmCharts.makeChart( "map_div", {
       title:"IP_168.167.8.1",
       latitude: -24.646400, //Botswana
       longitude: 25.911900,
-      type: "circle", 
+      svgPath: source_icon,
       color: "#2DBDFC",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -109,7 +108,7 @@ var map = AmCharts.makeChart( "map_div", {
       title:"IP_168.167.220.2",
       latitude: -24.946400, //Botswana
       longitude: 25.111900,
-      type: "circle", 
+      svgPath: source_icon,
       color: "#2DBDFC",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -132,7 +131,7 @@ var map = AmCharts.makeChart( "map_div", {
       color: "#2DBDFC",
       latitude: 0, //Congo 
       longitude: 25.000000,
-      type: "circle", 
+      svgPath: source_icon,
       scale: 1.0,
       zoomLevel: 5.00,
 
@@ -156,7 +155,7 @@ var map = AmCharts.makeChart( "map_div", {
   		title: "Probe_15357",
   		latitude: 0.329179, 
   		longitude: 32.570989, 
-      svgPath: source_icon,
+      type: "circle", 
   		color: "#3dd200",
   		scale: 1.0,
   		zoomLevel: 5.00,
@@ -169,7 +168,7 @@ var map = AmCharts.makeChart( "map_div", {
   		title: "Probe_14900",
   		latitude: 0.339179, 
   		longitude: 33.570989, 
-      svgPath: source_icon,
+      type: "circle", 
   		color: "#3dd304",
   		scale: 1.0,
   		zoomLevel: 5.00,
@@ -181,7 +180,7 @@ var map = AmCharts.makeChart( "map_div", {
       title: "Probe_13218",
       latitude: -1.280702, 
       longitude: 36.816352, 
-      svgPath: source_icon,
+      type: "circle", 
       color: "#3dd410",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -192,7 +191,7 @@ var map = AmCharts.makeChart( "map_div", {
       title: "Probe_13114",
       latitude: -1.235795, 
       longitude: 37.868172, 
-      svgPath: source_icon,
+      type: "circle", 
       color: "#3dd500",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -203,7 +202,7 @@ var map = AmCharts.makeChart( "map_div", {
       title: "Probe_19592",
       latitude: -18.942708, 
       longitude: 47.528323, 
-      svgPath: source_icon,
+      type: "circle", 
       color: "#3dd600",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -214,7 +213,7 @@ var map = AmCharts.makeChart( "map_div", {
       title: "Probe_14712",
       latitude: -17.942708, 
       longitude: 48.528323, 
-      svgPath: source_icon,
+      type: "circle", 
       color: "#3dd700",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -227,7 +226,7 @@ var map = AmCharts.makeChart( "map_div", {
       latitude: 15.609327, 
       longitude: 32.541700,
       //description: "ASN:37197", 
-      svgPath: source_icon,
+      type: "circle", 
       color: "#3dd800",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -238,7 +237,7 @@ var map = AmCharts.makeChart( "map_div", {
       title: "Probe_4518",
       latitude: -33.295427, 
       longitude: 26.521345, 
-      svgPath: source_icon,
+      type: "circle", 
       color: "#3dd900",
       scale: 1.0,
       zoomLevel: 5.00,
@@ -249,7 +248,7 @@ var map = AmCharts.makeChart( "map_div", {
       title: "Probe_18169",
       latitude: -33.313596 , 
       longitude: 27.516308,
-      svgPath: source_icon,
+      type: "circle", 
       color: "#3dd110",
       scale: 1.0,
       zoomLevel: 5.00,
