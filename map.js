@@ -16,14 +16,14 @@ var map = AmCharts.makeChart( "map_div", {
 
   	//Plot ip
     {
-      groupId: "dest_id",
+      //groupId: "dest_id",
       id:"Dest_41.223.156.170",
       title:"IP_41.223.156.170",
       latitude: -8.4192, //Angola
       longitude: 20.744699,
       svgPath: source_icon,
 
-      description: "8 hops",
+      //description: "<p>From Probe_4061: 8 hops</p> ",
       color: "#2DBDFC",
       scale: 1.0,
       zoomLevel: 3.00,
@@ -32,36 +32,66 @@ var map = AmCharts.makeChart( "map_div", {
        lines: [ {
           latitudes: [15.5881,  15.0  ], //latitude [sourceLat, destLat ]
           longitudes: [32.5342, 30.0 ], //longitude [sourceLong, destLong ]
-          title: "link 1",
+          title: "link 1 From Probe_4061",
       
         }, 
 
         {
-          title: "link 2",
+          title: "link 2 From Probe_4061",
           latitudes: [15.0, 25.0 ],
           longitudes: [30.0, 45.0 ],
         } ,
 
         {
-          title: "link 3",
+          title: "link 3 From Probe_4061",
           latitudes: [25.0, 15.609327 ],
           longitudes: [45.0, 32.541700 ],
         } ,
 
         {
-          title: "link 4",
+          title: "link 4 From Probe_4061",
           latitudes: [15.609327, -8.419200 ],
           longitudes: [32.541700, 20.744699],
         } ,  
 
+//latitude: -1.280702, longitude: 36.816352, 
+        {
+          title:"link 1 from Probe_13218",
+        latitudes: [ -1.280702, -1.00 ],
+          longitudes: [36.816352, 38.0],
+},
 
+{
+          title:"link 2 from Probe_13218",
+        latitudes: [-1.00,  -29.0 ],
+          longitudes: [38.0, 24.0 ],
+},
+
+{
+          title:"link 3 from Probe_13218",
+        latitudes: [-29.0, 52.374],
+          longitudes: [24.0, 4.8897 ],
+},
+
+{
+          title:"link 4 from Probe_13218",
+        latitudes: [52.374, 38.7139],
+          longitudes: [4.8897, -9.1394],
+},
+
+{
+          title:"link 5 from Probe_13218",
+          dashLength: 1,
+        latitudes: [38.7139, -8.4192 ],
+          longitudes: [-9.1394, 20.7447 ],
+},
           ],
         //Plot hops 
 
     }, 
 
     {
-      groupId: "dest_id",
+     // groupId: "dest_id",
       id:"Dest_41.221.254.22",
       title:"IP_41.221.254.22",
       latitude: -12.5, //Angola
@@ -84,7 +114,7 @@ var map = AmCharts.makeChart( "map_div", {
     },
 
     {
-      groupId: "dest_id",
+     // groupId: "dest_id",
       id:"Dest_168.167.8.1",
       title:"IP_168.167.8.1",
       latitude: -24.646400, //Botswana
@@ -107,7 +137,7 @@ var map = AmCharts.makeChart( "map_div", {
     },
 
     {
-      groupId: "dest_id",
+     // groupId: "dest_id",
       id:"Dest_168.167.220.2",
       title:"IP_168.167.220.2",
       latitude: -24.946400, //Botswana
@@ -130,7 +160,7 @@ var map = AmCharts.makeChart( "map_div", {
     },
 
      {
-      groupId: "dest_id",
+      //groupId: "dest_id",
       id:"Dest_41.242.128.134",
       title:"IP_41.242.128.134",
       color: "#2DBDFC",
@@ -157,7 +187,7 @@ var map = AmCharts.makeChart( "map_div", {
 //Plot probes
     {
 
-      groupId: "probes",
+      //groupId: "probes",
   		id:"Probe_15357",
   		title: "Probe_15357",
   		latitude: 0.329179, 
@@ -171,7 +201,7 @@ var map = AmCharts.makeChart( "map_div", {
   	},                    
 
   	{
-      groupId: "probes",
+      //groupId: "probes",
  		id:"Probe_14900",
   		title: "Probe_14900",
   		latitude: 0.339179, 
@@ -184,7 +214,7 @@ var map = AmCharts.makeChart( "map_div", {
 
 
     {
-      groupId: "probes",
+      //groupId: "probes",
     id:"Probe_13218",
       title: "Probe_13218",
       latitude: -1.280702, 
@@ -196,7 +226,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
   
   {
-    groupId: "probes",
+    //groupId: "probes",
     id:"Probe_13114",
       title: "Probe_13114",
       latitude: -1.235795, 
@@ -208,7 +238,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
-    groupId: "probes",
+    //groupId: "probes",
    id:"Probe_19592",
       title: "Probe_19592",
       latitude: -18.942708, 
@@ -220,7 +250,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
-    groupId: "probes",
+  //  groupId: "probes",
    id:"Probe_14712",
       title: "Probe_14712",
       latitude: -17.942708, 
@@ -232,7 +262,7 @@ var map = AmCharts.makeChart( "map_div", {
   },//End probe
 
   {
-groupId: "probes",   
+//groupId: "probes",   
 id:"Probe_4061",
       title: "Probe_4061",
       latitude: 15.609327, 
@@ -245,7 +275,7 @@ id:"Probe_4061",
   },//End probe
 
   {
-    groupId: "probes",
+    //groupId: "probes",
    id:"Probe_4518",
       title: "Probe_4518",
       latitude: -33.295427, 
@@ -257,7 +287,7 @@ id:"Probe_4061",
   },//End probe
 
   {
-    groupId: "probes",
+    //: "probes",
    id:"Probe_18169",
       title: "Probe_18169",
       latitude: -33.313596 , 
@@ -272,7 +302,7 @@ id:"Probe_4061",
   //Angola 41.223.156.170 hops
 
     {
-      groupId:"hop",
+     groupId:"hop",
       id:"Hop_1",
       title: "Hop_1: ",
       //label:"Hop_1",
@@ -326,7 +356,77 @@ id:"Probe_4061",
       zoomLevel: 5.00,
 
 
-    },      
+    },
+
+     {
+      groupId:"hop",
+      id:"IP_Hop_41.204.160.30",
+      title: "IP_Hop_41.204.160.30",
+      latitude: 1.0, 
+      longitude: 38.0, 
+      type: "circle", 
+      color: "#0000ff",
+      scale: 0.7,
+      zoomLevel: 5.00,
+
+
+    },
+
+    {
+      groupId:"hop",
+      id:"IP_Hop_41.204.184.157",
+      title: "IP_Hop_41.204.184.157",
+      latitude: 2.0, 
+      longitude: 39.0, 
+      type: "circle", 
+      color: "#0000ff",
+      scale: 0.7,
+      zoomLevel: 5.00,
+
+
+    },
+
+    {
+      groupId:"hop",
+      id:"IP_Hop_41.204.184.157",
+      title: "IP_Hop_41.204.184.157",
+      latitude: -29.0, 
+      longitude: 24.0, 
+      type: "circle", 
+      color: "#0000ff",
+      scale: 0.7,
+      zoomLevel: 5.00,
+
+
+    }, 
+
+    {
+      groupId:"hop",
+      id:"IP_Hop_80.249.208.217",
+      title: "IP_Hop_80.249.208.217",
+      latitude: 52.374, 
+      longitude: 4.8897, 
+      type: "circle", 
+      color: "#0000ff",
+      scale: 0.7,
+      zoomLevel: 5.00,
+
+
+    },
+
+    {
+      groupId:"hop",
+      id:"IP_Hop_195.8.0.229",
+      title: "IP_Hop_195.8.0.229",
+      latitude: 38.7139, 
+      longitude: -9.1394, 
+      type: "circle", 
+      color: "#0000ff",
+      scale: 0.7,
+      zoomLevel: 5.00,
+
+
+    },                
 
 
   	], //End image
@@ -340,11 +440,14 @@ id:"Probe_4061",
   //Settings for Map Objects
   areasSettings: {
     unlistedAreasColor: "#DDDDDD",
-    rollOverOutlineColor: "#DDDDDD"
+    rollOverOutlineColor: "#DDDDDD",
+
   },
 
   imagesSettings: {
-   // balloonText: [[title]] "was here",
+   //balloonText: "[[title]]",
+   //balloonText: "[[title]] joined EU at [[customData]]"
+
     rollOverColor: "#CC0000",
     selectedColor: "#CC0000"
   },
@@ -375,7 +478,7 @@ id:"Probe_4061",
       title: "Probes (Source)",
       color: "#3dd900",
       //customMarker: "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z",
-            groupId: "probes"
+                  groupId: "probes"
     }, {
       title: "Destination IP Address",
       color: "#2DBDFC",
@@ -387,18 +490,7 @@ id:"Probe_4061",
     }]
   }
 
- /* "legend": {
-            "backgroundColor": "#fff",
-            "backgroundAlpha": 0.7,
-            "align": "center",
-        "data": [{
-            title: "One",
-            color: "#3366CC"
-        }, {
-            title: "Two",
-            color: "#FFCC33"
-        }]
-} End Legend */
+
 
 } ); //End makeChart function
 
