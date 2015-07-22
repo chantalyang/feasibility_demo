@@ -29,8 +29,8 @@ var map = AmCharts.makeChart( "map_div", {
 
 
        lines: [ {
-          latitudes: [ -8.419200, 15.5881 ], //latitude [sourceLat, destLat ]
-          longitudes: [ 20.744699, 32.5342 ], //longitude [sourceLong, destLong ]
+          latitudes: [15.5881,  15.0  ], //latitude [sourceLat, destLat ]
+          longitudes: [32.5342, 30.0 ], //longitude [sourceLong, destLong ]
           title: "link 1",
           
       
@@ -38,20 +38,20 @@ var map = AmCharts.makeChart( "map_div", {
 
         {
           title: "link 2",
-          latitudes: [ 15.5881 , 15.0 ],
-          longitudes: [ 32.5342, 30.0 ]
+          latitudes: [15.0, 25.0 ],
+          longitudes: [30.0, 45.0 ],
         } ,
 
         {
           title: "link 3",
-          latitudes: [ 15.0 , 25.0 ],
-          longitudes: [ 30.0 , 45.0]
+          latitudes: [25.0, 15.609327 ],
+          longitudes: [45.0, 32.541700 ],
         } ,
 
         {
           title: "link 4",
-          latitudes: [ 25.0  , 15.609327 ],
-          longitudes: [ 45.0 , 32.541700]
+          latitudes: [15.609327, -8.419200 ],
+          longitudes: [32.541700, 20.744699],
         } ,  
 
 
