@@ -21,12 +21,42 @@ var map = AmCharts.makeChart( "map_div", {
       latitude: -8.4192, //Angola
       longitude: 20.744699,
       type: "circle", 
+
+      description: "8 hops",
       color: "#2DBDFC",
       scale: 1.0,
       zoomLevel: 3.00,
 
 
-       
+       lines: [ {
+          latitudes: [ -8.419200, 15.5881 ], //latitude [sourceLat, destLat ]
+          longitudes: [ 20.744699, 32.5342 ], //longitude [sourceLong, destLong ]
+          title: "link 1",
+          
+      
+        }, 
+
+        {
+          title: "link 2",
+          latitudes: [ 15.5881 , 15.0 ],
+          longitudes: [ 32.5342, 30.0 ]
+        } ,
+
+        {
+          title: "link 3",
+          latitudes: [ 15.0 , 25.0 ],
+          longitudes: [ 30.0 , 45.0]
+        } ,
+
+        {
+          title: "link 4",
+          latitudes: [ 25.0  , 15.609327 ],
+          longitudes: [ 45.0 , 32.541700]
+        } ,  
+
+
+          ],
+        //Plot hops 
 
     }, 
 
@@ -196,40 +226,11 @@ var map = AmCharts.makeChart( "map_div", {
       title: "Probe_4061",
       latitude: 15.609327, 
       longitude: 32.541700,
-      description: "8 hops", 
+      //description: "ASN:37197", 
       svgPath: source_icon,
       color: "#3dd800",
       scale: 1.0,
       zoomLevel: 5.00,
-
-      lines: [ {
-          latitudes: [ 15.5881, 15.0 ], //latitude [sourceLat, destLat ]
-          longitudes: [ 32.5342, 30.0 ], //longitude [sourceLong, destLong ]
-          title: "link 1",
-          
-      
-        }, 
-
-        {
-          title: "link 2",
-          latitudes: [ 15.0, 25.0],
-          longitudes: [ 30.0, 45.0 ]
-        } ,
-
-        {
-          title: "link 3",
-          latitudes: [ 25.0,  15.609327 ],
-          longitudes: [ 45.0, 32.541700 ]
-        } ,
-
-        {
-          title: "link 4",
-          latitudes: [15.609327, -8.4192 ],
-          longitudes: [32.541700, 20.744699 ]
-        } ,  
-
-
-          ],
   },//End probe
 
   {
