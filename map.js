@@ -22,8 +22,8 @@ var map = AmCharts.makeChart( "map_div", {
       latitude: -8.4192, //Angola
       longitude: 20.744699,
       svgPath: source_icon,
-
-      //description: "<p>From Probe_4061: 8 hops</p> ",
+      //balloonText: "From Probe_4061: 8 hops",
+      description: "From Probe_4061: 8 hops From Probe_13218: 15 hops (Indefininte)",
       color: "#2DBDFC",
       scale: 1.0,
       zoomLevel: 3.00,
@@ -447,9 +447,10 @@ id:"Probe_4061",
   imagesSettings: {
    //balloonText: "[[title]]",
    //balloonText: "[[title]] joined EU at [[customData]]"
-
+    description: "Hello",
     rollOverColor: "#CC0000",
-    selectedColor: "#CC0000"
+    selectedColor: "#CC0000",
+    //rollOverOutlineColor: "#CC0000"
   },
 
   linesSettings: {
@@ -458,6 +459,8 @@ id:"Probe_4061",
     rollOverColor: "#CC0000",
     arrow:"middle",
     arrowSize:7,
+    alpha: 0.4,
+
     //arc: -0.5
   },
 
