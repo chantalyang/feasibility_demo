@@ -23,13 +23,16 @@ var map = AmCharts.makeChart( "map_div", {
       longitude: 20.744699,
       svgPath: source_icon,
       //balloonText: "From Probe_4061: 8 hops",
-      description: "From Probe_4061: 8 hops From Probe_13218: 15 hops (Indefininte)",
+      description: "From Probe_4061: 8 hops From Probe_13218: 15 hops (Incomplete)",
       color: "#2DBDFC",
       scale: 1.0,
       zoomLevel: 3.00,
 
 
-       lines: [ {
+       lines: [
+       //From Probe_4061  
+       {
+          groupId:"path1",
           latitudes: [15.5881,  15.0  ], //latitude [sourceLat, destLat ]
           longitudes: [32.5342, 30.0 ], //longitude [sourceLong, destLong ]
           title: "link 1 From Probe_4061",
@@ -37,49 +40,57 @@ var map = AmCharts.makeChart( "map_div", {
         }, 
 
         {
+          groupId:"path1",
           title: "link 2 From Probe_4061",
           latitudes: [15.0, 25.0 ],
           longitudes: [30.0, 45.0 ],
         } ,
 
         {
+          groupId:"path1",
           title: "link 3 From Probe_4061",
           latitudes: [25.0, 15.609327 ],
           longitudes: [45.0, 32.541700 ],
         } ,
 
         {
+          groupId:"path1",
           title: "link 4 From Probe_4061",
           latitudes: [15.609327, -8.419200 ],
           longitudes: [32.541700, 20.744699],
         } ,  
 
-//latitude: -1.280702, longitude: 36.816352, 
+//From Probe_13218
         {
+          groupId:"path2",
           title:"link 1 from Probe_13218",
         latitudes: [ -1.280702, -1.00 ],
           longitudes: [36.816352, 38.0],
 },
 
 {
+          groupId:"path2",
           title:"link 2 from Probe_13218",
         latitudes: [-1.00,  -29.0 ],
           longitudes: [38.0, 24.0 ],
 },
 
 {
+          groupId:"path2",
           title:"link 3 from Probe_13218",
         latitudes: [-29.0, 52.374],
           longitudes: [24.0, 4.8897 ],
 },
 
 {
+          groupId:"path2",
           title:"link 4 from Probe_13218",
         latitudes: [52.374, 38.7139],
           longitudes: [4.8897, -9.1394],
 },
 
 {
+          groupId:"path2",
           title:"link 5 from Probe_13218",
           dashLength: 1,
         latitudes: [38.7139, -8.4192 ],
